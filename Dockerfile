@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:latest
 EXPOSE 8501
 RUN pip install streamlit requests pandas
 COPY app.py /var/dashboard/app.py
